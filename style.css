@@ -6,6 +6,15 @@ body {
   height: 100%;
   width: 100%;
 }
+@media screen and (max-width: 768px) {
+  .content h1 {
+    font-size: 250%;
+  }
+  p {
+    font-size: 100%;
+    line-height: 160%;
+  }
+}
 .intro {
   height: 100%;
   width: 100%;
@@ -31,4 +40,11 @@ body {
   color: #000;
   text-shadow: 0rem 0rem 3rem #000;
   font-size: 500%;
+}
+p {
+  font-size: 168%;
+  line-height: 210%;
+  text-align: justify;
+  margin: 3%;
+  font-family: sans-serif;
 }
