@@ -7,4 +7,28 @@ body {
   width: 100%;
 }
 .intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url("./images/header.jpg") no-repeat 50% 50%;
+  display: table;
+  top: 0;
+  background-size: cover;
+}
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+.content {
+  max-width: 50rem;
+  margin: 0 auto;
+  text-align: right;
+}
+.content h1 {
+  font-family: "Charm", cursive;
+  color: #000;
+  text-shadow: 0rem 0rem 3rem #000;
+  font-size: 500%;
 }
